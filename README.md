@@ -4,7 +4,7 @@ Passo a passo -
 
 1. Primeiro crie uma pasta e entre nela.
 2. Inicie o projeto npm com `npm init -y` - o y significa yes, aceita todos os passos automaticamente
-3. Baixe os modulos que vai precisar para o projeto: `npm install @babel/core babel-loader, css-loader, vue, vue-loader, vue-style-loader, vue-template-compiler, webpack` sendo: 
+3. Baixe os modulos que vai precisar para o projeto: `npm install @babel/core babel-loader, css-loader, vue, vue-loader, vue-style-loader, vue-template-compiler, webpack` sendo:
   - "@babel/core": Babel raiz, serve para executar o comando do babel, convertendo para ES2015
   - "babel-loader": Usa o babel com exclusividade para o webpack
   - "css-loader": Usado no webpack para converter os arquivos de css ou vue style
