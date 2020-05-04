@@ -66,5 +66,14 @@ div {
 }
 ```
 13 - Vá ao terminal, entre na raiz do projeto e digite o comando `npm run build`
-14 - Abra o arquivo index.html na raiz do projeto.
+14 - Vai aparecer a seguinte mensagem:
+```
+One CLI for webpack must be installed. These are recommended choices, delivered as separate packages:
+ - webpack-cli (https://github.com/webpack/webpack-cli)
+   The original webpack full-featured CLI.
+We will use "npm" to install the CLI via "npm install -D".
+Do you want to install 'webpack-cli' (yes/no): 
+```
+Isso significa que o sistema webpack, quer instalar a `lib webpack-cli` no projeto, para suporte ao webpack, digite `yes` e pressione `Enter`.
+15 - Abra o arquivo index.html na raiz do projeto.
 
