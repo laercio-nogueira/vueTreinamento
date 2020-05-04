@@ -14,40 +14,6 @@ Passo a passo -
   - "vue-template-compiler": Trabalha em conjunto com o vue-loader, da suporte na conversao .vue
   - "webpack": Modulo que copila o projeto em um unico arquivo.
 4 - Cria o arquvivo webpack.config.js
-`
-const { VueLoaderPlugin } = require('vue-loader')
-module.exports = {
-  entry: './src/main.js',
-  mode: 'production',
-  output: {
-    path: ${__dirname}/static/,
-    filename: 'build.js'
-  },
-  module: {
-    rules: [
-      {
-        test: /\.vue$/,
-        loader: 'vue-loader'
-      },
-      {
-        test: /\.css$/,
-        use: [
-          'vue-style-loader',
-          'css-loader',
-        ],
-      },
-      {
-        test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
-      }
-    ]
-  },
-  plugins: [
-    new VueLoaderPlugin()
-  ]
-}`
-
 5 - Crie um arquvivo index.html na raiz =>
 `<html>
   <body>
