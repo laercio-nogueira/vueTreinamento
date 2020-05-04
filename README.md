@@ -59,11 +59,9 @@ div {
 }
 </style>
 ```
-12. Agora abra o arquivo package.json e edite em script, acrescentando:
+12. Agora abra o arquivo package.json e edite em scripts, acrescentando:
 ```
-"scripts": {
-  "build": "webpack"
-}
+"build": "webpack"
 ```
 13. Vá ao terminal, entre na raiz do projeto e digite o comando `npm run build`
 14. Abra o arquivo index.html na raiz do projeto.
