@@ -4,7 +4,7 @@ Passo a passo -
 
 1. Primeiro crie uma pasta e entre nela.
 2. Inicie o projeto npm com `npm init -y` - o y significa yes, aceita todos os passos automaticamente
-3. Baixe os modulos que vai precisar para o projeto: `npm install @babel/core babel-loader css-loader vue vue-loader vue-style-loader vue-template-compiler webpack` sendo:
+3. Baixe os modulos que vai precisar para o projeto: `npm install @babel/core babel-loader css-loader vue vue-loader vue-style-loader vue-template-compiler webpack webpack-cli` sendo:
   - "@babel/core": Babel raiz, serve para executar o comando do babel, convertendo para ES2015
   - "babel-loader": Usa o babel com exclusividade para o webpack
   - "css-loader": Usado no webpack para converter os arquivos de css ou vue style
@@ -66,14 +66,5 @@ div {
 }
 ```
 13. Vá ao terminal, entre na raiz do projeto e digite o comando `npm run build`
-14. Vai aparecer a seguinte mensagem:
-```
-One CLI for webpack must be installed. These are recommended choices, delivered as separate packages:
- - webpack-cli (https://github.com/webpack/webpack-cli)
-   The original webpack full-featured CLI.
-We will use "npm" to install the CLI via "npm install -D".
-Do you want to install 'webpack-cli' (yes/no): 
-```
-- Isso significa que o sistema webpack, quer instalar a `lib webpack-cli` no projeto, para suporte ao webpack, digite `yes` e pressione `Enter`.
-15. Abra o arquivo index.html na raiz do projeto.
+14. Abra o arquivo index.html na raiz do projeto.
 
