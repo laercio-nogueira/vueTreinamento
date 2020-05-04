@@ -1,0 +1,20 @@
+{
+  "name": "vueTreinamento",
+  "version": "1.0.0",
+  "description": "Passo a passo -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divineinfo/vueTreinamento.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divineinfo/vueTreinamento/issues"
+  },
+  "homepage": "https://github.com/divineinfo/vueTreinamento#readme"
+}
