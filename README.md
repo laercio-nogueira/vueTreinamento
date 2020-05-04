@@ -20,7 +20,7 @@ module.exports = {
   entry: './src/main.js',
   mode: 'production',
   output: {
-    path: `${__dirname}/static/`,
+    path: ${__dirname}/static/,
     filename: 'build.js'
   },
   module: {
@@ -66,10 +66,10 @@ import App from './components/App.vue'
 new Vue({
   el: '#root',
   render: h => h(App)
-})` 
+})`
 10 - Crie uma pasta components dentro de src
 11 - Dentro de components crie um arquivo App.vue e digite:
-´
+`
 <template>
   <div>Ola</div>
 </template>
