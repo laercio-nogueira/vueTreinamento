@@ -1,4 +1,4 @@
-const VueLoaderPlugin = require('vue-loader');
+const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
   entry: './src/main.js',
@@ -23,7 +23,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node-modules/
+        exclude: /node_modules/
       }
     ]
   },
